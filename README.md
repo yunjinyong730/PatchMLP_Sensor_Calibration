@@ -1,4 +1,8 @@
 # PatchMLP_Sensor_Calibration
+<img width="1160" height="351" alt="스크린샷 2025-09-08 오후 9 48 54" src="https://github.com/user-attachments/assets/0cf6b73a-4fbe-4d47-96ba-a91b0d157fdc" />
+
+https://arxiv.org/html/2405.13575v3 
+
 
 ## PatchMLP: Patch 기반 MLP로 장기 시계열 예측을 재정의함
 
