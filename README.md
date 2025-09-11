@@ -1,7 +1,33 @@
 # PatchMLP_Sensor_Calibration
 <img width="1160" height="351" alt="스크린샷 2025-09-08 오후 9 48 54" src="https://github.com/user-attachments/assets/0cf6b73a-4fbe-4d47-96ba-a91b0d157fdc" />
 
-## SensEURCity 데이터 셋 (3개 유럽 도시 대규모 미세먼지 데이터| 저비용 센서 | 고비용 센서 데이터 포함)
+# 실험 결과
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_4 (InputLayer)        [(1, 360, 5)]             0         
+                                                                 
+ normalizer_3 (Normalizer)   (1, 360, 5)               0         
+                                                                 
+ PatchMLP (PatchMLP)         (1, 1)                    3619      
+                                                                 
+ denormalizer_3 (Denormaliz  (1, 1)                    0         
+ er)                                                             
+...
+_________________________________________________________________
+934/934 [==============================] - 7s 6ms/step
+Inference time: 7.062 seconds
+Throughput: 4231.30 samples/second
+
+## PM10 정확도
+
+Antwerp: val rmse : 8.31779956817627, test rmse : 11.96527099609375
+Oslo: 
+Zagreb: 
+
+
+## SensEURCity 데이터 셋 
+### (3개 유럽 도시 대규모 미세먼지 데이터| 저비용 센서 | 고비용 센서 데이터 포함)
 사용한 데이터 셋:
 - https://www.nature.com/articles/s41597-023-02135-w
 
