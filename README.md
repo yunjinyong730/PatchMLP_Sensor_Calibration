@@ -22,7 +22,7 @@ Throughput: 4231.30 samples/second
 ## PM10 정확도
 
 Antwerp: val rmse : 8.31779956817627, test rmse : 11.96527099609375 <br>
-Oslo: val rmse : 9.048280715942383, test rmse : 12.056038856506348
+Oslo: val rmse : 9.048280715942383, test rmse : 12.056038856506348 <br>
 Zagreb: 
 
 
