@@ -20,10 +20,12 @@ Inference time: 7.062 seconds
 Throughput: 4231.30 samples/second
 
 ## PM10 정확도
-
-Antwerp: val rmse : 8.31779956817627, test rmse : 11.96527099609375 <br>
-Oslo: val rmse : 9.048280715942383, test rmse : 12.056038856506348 <br>
-Zagreb: 
+<img width="1000" height="400" alt="Antwerp_pm10_w360" src="https://github.com/user-attachments/assets/b4137a4d-c6e9-4693-ae37-2fe06b2ea7dd" />
+<b>Antwerp: val rmse : 8.31779956817627, test rmse : 11.96527099609375</b> <br>
+<img width="1000" height="400" alt="oslo_pm10_w360" src="https://github.com/user-attachments/assets/6474d05b-ff7d-479e-80ac-649d504b54bb" />
+<b>Oslo: val rmse : 9.048280715942383, test rmse : 12.056038856506348</b> <br>
+<img width="1000" height="400" alt="Zagreb_pm10_w360" src="https://github.com/user-attachments/assets/0068141b-d2fb-46aa-b10e-43074f4a96be" />
+<b>Zagreb: val rmse : 16.360061645507812, test rmse : 13.834146499633789</b>
 
 
 ## SensEURCity 데이터 셋 
