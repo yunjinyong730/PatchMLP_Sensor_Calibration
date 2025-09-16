@@ -1,6 +1,5 @@
 # PatchMLP_Sensor_Calibration
-<img width="1160" height="351" alt="스크린샷 2025-09-08 오후 9 48 54" src="https://github.com/user-attachments/assets/0cf6b73a-4fbe-4d47-96ba-a91b0d157fdc" />
-
+```
 # 실험 결과
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
@@ -18,6 +17,7 @@ _________________________________________________________________
 934/934 [==============================] - 7s 6ms/step
 Inference time: 7.062 seconds
 Throughput: 4231.30 samples/second
+```
 
 ## PM10 정확도
 <img width="1000" height="400" alt="Antwerp_pm10_w360" src="https://github.com/user-attachments/assets/b4137a4d-c6e9-4693-ae37-2fe06b2ea7dd" />
@@ -54,6 +54,9 @@ Transformer가 LTSF(Long-Term Time Series Forecasting)에서 강력해 보이는
 - 위 통찰을 바탕으로, 복잡한 어텐션 없이도 단순 MLP로 최첨단 성능을 달성하는 PatchMLP를 설계함
 
 ### 모델 개요
+
+<img width="1536" height="342" alt="image" src="https://github.com/user-attachments/assets/67f69c20-4606-4d86-8a22-b39c07b78023" />
+
 
 PatchMLP는 네 개의 구성요소로 이뤄짐
 
